@@ -9,7 +9,7 @@
  ---
  Stellar samples can be selected by binning within ranges of the parameters available in the Gaia-Kepler Stellar Properties Catalog from [Berger et al. (2020)](https://ui.adsabs.harvard.edu/abs/2020AJ....159..280B/abstract).
 
-The methodology for calculating survey completeness is the same as in the [``epos``](https://github.com/GijsMulders/epos) package from [Mulders et al. (2018)](https://ui.adsabs.harvard.edu/abs/arXiv:1805.08211). This tool makes use of the Kepler DR25 per-target detection contours from [Burke & Catanzarite (2017)](https://exoplanetarchive.ipac.caltech.edu/docs/KSCI-19111-002.pdf) via [``KeplerPORTs``](https://github.com/nasa/KeplerPORTs).
+The methodology for calculating survey completeness is the same as in the [``epos``](https://github.com/GijsMulders/epos) package from [Mulders et al. (2018)](https://ui.adsabs.harvard.edu/abs/arXiv:1805.08211). For the detection efficiency, we make use of the Kepler DR25 per-target detection contours from [Burke & Catanzarite (2017)](https://exoplanetarchive.ipac.caltech.edu/docs/KSCI-19111-002.pdf) via [``KeplerPORTs``](https://github.com/nasa/KeplerPORTs). For the vetting efficiency, we follow [Thompson et al. (2018)](https://ui.adsabs.harvard.edu/abs/2018ApJS..235...38T/abstract) using Kepler simulated data products.
 
  Disclaimers
  ---
